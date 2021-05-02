@@ -1,184 +1,201 @@
+/* PC及び共通 */
 
-/* ------------------メイン------------------- */
-
-.main {
-  background-image: url(./img/アセット\ 2.png);
-  background-repeat: no-repeat;
-  background-size: cover;
+body {
   width: 100%;
-  height: 930px;
-  position: relative;
+  font-size: 25px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+
+/*_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+                            メイン        
+_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/*/
+.main {
+  width: 100%;
+  background-image: url(/img/アセット\ 2.png);
+  height: 0;
+  padding-bottom: 56%;
+  background-size: cover;
 }
 
 .header-logo {
-  position: absolute;
-  left: 60px;
-  top: 50px;
+  width: 20%;
+  padding-left: 3.5%;
+  padding-top: 2.9%;
+  display: flex;
 }
 
 .to-ko-logo {
-  height: 80px;
+  width: 70%;
+  margin-right: 1%;
 }
 
 .fortyth {
-  height: 80px;
+  width: 29%;
+}
+
+.main-container {
+  width: 88%;
+  margin: 0 auto;
+  height: 45%;
+  margin-top: 20%;
 }
 
 .speech-baloons {
-  position: absolute;
-  top: 450px;
-  left: 122px;
-  position: relative;
+  display: flex;
+  width: 38%;
+  color: white;
+  text-align: center;
+  line-height: 1.7em;
+  letter-spacing: 0.3em;
+  font-size: 1.1vw;
+  font-family: Tsunami;
 }
 
-.baloon {
-  width: 175px;
-  height: 175px;
-  padding-left: 10px;
+.speech-baloons p {
+  padding-top: 24%;
+} 
+
+p.baloon-content-2 {
+  padding-top: 30%;
 }
 
 .baloon-1 {
-  position: relative;
-  float: left;
-  
-}
-
-.baloon-content-1 {
-  position: absolute;
-  color: white;
-  bottom: 40px;
-  left: 57px;
-  text-align: center;
+  width: 31%;
+  height: 0;
+  background-image: url(/img/circle_bg.png);
+  padding-bottom: 31%;
+  background-size: cover;
+  margin-right: 2%;
 }
 
 .baloon-2 {
-  position: relative;
-  float: left;
-}
-
-.baloon-content-2 {
-  position: absolute;
-  color: white;
-  bottom: 50px;
-  left: 57px;
-  text-align: center;
+  width: 31%;
+  height: 0;
+  background-image: url(/img/circle2_bg.png);
+  padding-bottom: 31%;
+  background-size: cover;
+  margin-right: 2%;
 }
 
 .baloon-3 {
-  position: relative;
-  float: left;
-}
-
-.baloon-content-3 {
-  position: absolute;
-  color: white;
-  bottom: 40px;
-  left: 57px;
-  text-align: center;
+  width: 31%;
+  height: 0;
+  background-image: url(/img/circle3_bg.png);
+  padding-bottom: 31%;
+  background-size: cover;
 }
 
 .main-title {
-  position: absolute;
-  top: 650px;
-  left: 122px;
-  line-height: 0px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  height: 225px;
-  width: 1460px;
+  display: flex;
+  width: 100%;
+  color: #023543;
+  margin-top: 1%;
+}
+
+.main-abobe-title {
+  display: flex;
+  width: 58%;
+}
+
+.main-below-title {
+  display: flex;
+  width: 42%;
 }
 
 .vertical {
-  float: left;
-  writing-mode: vertical-rl;
-  font-size: 70px;
-  margin: 0, auto;
-  position: relative;
-  right: 30px;
+  writing-mode: vertical-lr;
+  font-size: 6.5vw;
 }
 
 .side {
-  float: left;
-  font-size: 110px;
-  margin: 0, auto;
-  position: relative;
-  bottom: 30px;
-  right: 50px;
+  font-size: 14vw;
 }
 
-.side .img {
-  position: absolute;
-  top: 30px;
-  left: 630px;
-  height: 225px;
+.line-image {
+  width: 17%;
 }
 
-.main-title .right{
-  position: relative;
-  left: 45px;
-}
-
-
-
-/* -------------------募集------------------- */
-
-
-.application-title {
-  background-image: url(img/line_bg.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 128px;
-  text-align: center;
-  color: white;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  display: table;
+.line-image img {
   width: 100%;
 }
 
+.side-1 {
+  display: flex;
+  letter-spacing: -2vw;
+  width: 93%;
+}
+
+
+.side-2 h1 {
+  font-size: 12.5vw;
+  margin-top: 1%;
+  margin-left: 1vw;
+}
+
+/*_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+                            応募       
+_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/*/
+
+.application {
+  width: 100%;
+}
+
+.application-title {
+  width: 100%;
+  height: 0;
+  padding-bottom: 7.5%;
+  background-image: url(/img/line_bg.png);
+  background-size: cover;
+  color: white;
+  text-align: center;
+  font-size: 4.5vw;
+}
+
 .application-title h2 {
-  display: table-cell;
-  vertical-align: middle;
-  font-size: 72px;
+  padding-top: 1.4%;
 }
 
 .application .container {
-  background-image: url(img/stone_bg.png);
-  background-repeat: no-repeat;
+  width: 100%;
+  height: 0;
+  padding-bottom: 38.81%;
+  background-image: url(/img/stone_bg.png);
   background-size: cover;
-  height: 656px;
-  position: relative;
-  top: -10px;
 }
 
 .application .sentence {
   text-align: center;
-  margin-top: 0px;
-  font-size: 35px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  padding-top: 175px;
+  font-size: 2.2vw;
+  line-height: 3vw;
+  letter-spacing: 0.3vw;
+}
+
+.application .sentence p {
+  padding-top: 10%;
   font-weight: bold;
 }
 
+
 .application .button-inner {
-  font-size: 60px;
-  letter-spacing: 13px;
+  font-size: 4vw;
+  letter-spacing: 0.5vw;
   color: white;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  margin: 60px, auto, 0, auto;
-  display: block;
   text-decoration: none;
-  position: absolute;
-  top: 30px;
-  left: 330px;
+  text-align: center;
+  display: block;
+  padding-top: 2.6%;
 }
 
+
 .application .button {
-  margin: 60px, auto;
-  width: 1100px;
-  position: relative;
-  left: 310px;
-  width: 1100px;
-  height: 145px;
-  background: linear-gradient(to bottom right, #001100, #007700);
+  width: 65%;
+  height: 0;
+  margin: 4% auto 0 auto;
+  background: linear-gradient(to right bottom, #001100, #007700);
+  border: solid black 1px;
+  padding-bottom: 8%;
 }
 
 .application .button:hover {
@@ -187,51 +204,50 @@
 
 
 
-/* -------------------トーコーについて------------------ */
+
+/*_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+                          トーコーについて     
+_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/*/
+
 
 .about-to-ko {
   width: 100%;
-  height: 1103px;
-  background-image: url(img/toko_about.png);
-  background-repeat: no-repeat;
+  height: 0;
+  padding-bottom: 65%;
+  background-image: url(/img/toko_about.png);
   background-size: cover;
-  position: relative;
-  top: -10px;
 }
 
 .about-to-ko-title {
+  font-size: 4vw;
   color: white;
-  font-size: 50px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  position: absolute;
-  top: 390px;
-  left: 610px;
+  width: 50%;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 30%;
 }
 
 .about-to-ko-sentence {
-  position: absolute;
-  bottom: 170px;
-  left: 260px;
+  width: 70%;
   color: white;
-  line-height: 30px;
-  font-size: 22px;
-  width: 1180px;
-  text-align: justify;
-  text-justify: inter-ideograph;
-  line-height: 50px;
-  letter-spacing: 4px;
+  margin: 4% auto 0 auto;
+  line-height: 3vw;
+  font-size: 1.5vw;
+  font-family: Tsunami;
 }
 
 
 
+/*_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+                            仕事について       
+_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/*/
 
-
-/* -------------------お仕事紹介------------------ */
+.about-work {
+  width: 100%;
+}
 
 .insert-img {
-  width: 100%;
-  position: relative;
-  top: -10px;
+  width: 100%;  
 }
 
 .insert-img img {
@@ -239,113 +255,117 @@
 }
 
 .about-work .container {
-  background-color: #cccccc;
-  position: relative;
-  top: -40px;
   width: 100%;
-  height: 4100px;
+  background-color: #DDE2E5;
+  position: relative;
+  padding-top: 13%;
+  padding-bottom: 5%;
 }
 
 .index {
-  background-image: url(img/blue_box_bg.png);
-  background-repeat: no-repeat;
+  width: 71.4%;
+  background-image: url(/img/blue_box_bg.png);
+  height: 0;
+  padding-bottom: 26%;
   background-size: cover;
-  width: 1205px;
-  height: 440px;
   position: absolute;
-  top: -70px;
+  top: -2%;
   color: white;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 40px;
-  z-index: 30;
+  font-size: 3.3vw;
 }
 
-.about-work .index h2 {
-  position: relative;
-  top: 130px;
-  left: 240px;
+.index h2 {
+  padding: 15% 0 0 19%;
 }
 
 .about-works {
-  padding-bottom: 90px;
+  width: 84.79%;
+  margin: 0 auto 5% auto;
   background-color: white;
-  position: absolute;
-  top: 270px;
-  left: 135px;
-  width: 1433px;
+}
+
+.about-works-contents {
+  width: 82.48%;
+  margin: 0 auto;
+  padding-top: 13.46%;
+  padding-bottom: 1%;
 }
 
 .work-title {
   text-align: center;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 30px;
-  margin-bottom: 40px;
-  padding-top: 125px;
+  font-size: 3vw;
+  border-bottom: solid 0.1vw black;
+  padding-bottom: 1vw;
+  margin-bottom: 3.72%;
 }
 
-.work-title h3 {
-  border-bottom:solid black 2px;
-  padding-bottom: 5px;
+.work-content {
+  width: 100%;
+  display: flex;
+  margin-top: 3.72%;
+  margin-bottom: 7.62%;
 }
 
-.about-works-contents {
-  margin: 0, auto;
-  display: block;
-  width: 1180px;
-  position: relative;
-  left: 125px;
+.long-margin {
+  margin-bottom: 15.67%;
 }
 
-.work-content img {
-  width: 539px;
-  position: relative;
+.work-content-img {
+  width: 45.67%;
+  margin-right: 4%;
+}
+
+.work-content-img img {
+  width: 100%;
 }
 
 .description {
-  display: inline-block;
-  width: 590px;
-  text-align: justify;
-  font-size: 22px;
-  line-height: 36px;
-  position: absolute;
-  left: 569px;
+  width: 50%;
+  padding-top: 1%;
+  font-family: Tsunami;
+}
+
+.description p {
+  font-size: 1.3vw;
+  line-height: 2.2vw;
+  letter-spacing: 0.1vw;
 }
 
 .description ul {
-  background-color: #aaaaaa;
+  font-size: 1.2vw;
+  line-height: 2vw;
+  letter-spacing: 0.1vw;
   color: white;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  padding-right: 15px;
-  padding-left: 45px;
+  background-color: #A2ADB1;
+  padding: 1.2vw;
+  padding-left: 3vw;
+  margin: 1vw 0;
 }
 
 .work-point {
   color: white;
-  background-color: #191970;
-  width: 205px;
-  height: 50px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 33px;
+  background-color: #095883;
+  width: 17.37%;
+  height:3vw;
+  font-size: 2vw;
   text-align: center;
-  margin-bottom: 20px;
-  letter-spacing: 7px;
+  letter-spacing: 0.3vw;
 }
+
+.work-point h4 {
+  padding-top: 0.5vw;
+}
+
 
 .about-work .container .table {
   text-align: center;
-  font-size: 50px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  border: solid 4px #999933;
-  border-radius: 100px;
+  font-size: 3.5vw;
+  border: solid 0.3vw #7A683D;
+  border-radius: 9vw;
   background-color: white;
-  z-index: 40;
-  position: absolute;
-  bottom: 87px;
-  left: 364px;
-  width: 948px;
-  height: 159px;
-  display: table;
+  width: 56.09%;
+  height: 9vw;
+  margin: 0 auto;
 }
 
 .about-work .container .table:hover {
@@ -353,539 +373,929 @@
 }
 
 .about-work .container .table a {
+  color: #524015;
+  padding: auto;
   text-decoration: none;
-  color: #999933;
-  display: table-cell;
-  vertical-align: middle;
+  padding-top: 2.75vw;
+  display: block;
 }
 
-.re-application {
-  position: relative;
-  top: -42px;
+/*_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+                          待遇・福利厚生 
+_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/*/
+
+
+.welfare {
+  width: 100%;
 }
-
-
-
-
-/* -------------------待遇・福利厚生------------------ */
 
 .welfare-title {
+  width: 100%;
+  margin: 9% auto 7% auto;
+}
+
+.welfare-title-img {
+  width: 27.39%;
   margin: 0 auto;
-  width: 463px;
-  text-align: center;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  line-height: 50px;
-  font-size: 28px;
-  font-weight: bold;
-  letter-spacing: 5px;
-  margin-bottom: 120px;
 }
 
 .welfare-title img {
-  width: 463px;
-  margin-bottom: 20px;
+  width: 100%;
+}
+
+.welfare-title p {
+  text-align: center;
+  line-height: 4vw;
+  padding-top: 3%;
+  font-weight: bold;
+  font-size: 1.9vw;
 }
 
 .welfare-contents {
-  width: 1600px;
+  width: 93.79%;
   margin: 0 auto;
 }
 
+.welfare-contents-half {
+  display: flex;
+  width: 100%;
+}
+
 .welfare-content {
-  display: inline-block;
-  width: 364px;
-  height: 720px;
+  width: 33%;
   text-align: justify;
-  margin: 0 80px;
-  position: relative;
-  vertical-align: top;
-}
-
-.welfare-content-right {
-  margin-right: 80px;
-}
-
-.welfare-content-middle {
-  margin: 0 80px;
-}
-
-.welfare-content-left {
-  margin-left: 80px;
-}
-
-.welfare-content-title {
-  font-size: 35px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  letter-spacing: 3px;
-  text-align: center;
-}
-
-.train {
-  width: 265px;
-  margin-top: 70px;
-  margin-left: 40px;
-}
-
-.bag {
-  width: 189px;
-  margin-top: 20px;
-  margin-left: 85px;
-}
-
-.maney {
-  width: 360px;
-  margin-left: 2px;
-}
-
-.insurance {
-  width: 230px;
-  margin-top: 63px;
-  margin-left: 60px;
-}
-
-.calender {
-  width: 265px;
-  margin-top: 53px;
-  margin-left: 48px;
-}
-
-.money- {
-  width: 302px;
-  margin-left: 30px;
-}
-
-.welfare-content-introduce {
-  font-size: 22px;
 }
 
 .welfare-content-border {
-  display: inline-block;
-  border-right: dotted 3px silver;
-  height: 730px;
+  width: 0.5%;
+  border-right: silver 0.3vw dotted;
 }
 
+.welfare-content-title {
+  font-size: 2.2vw;
+  text-align: center;
+  line-height: 3.7vw;
+  letter-spacing: 0.4vw;
+}
+
+.welfare-content-img {
+  margin: 0 auto 7% auto;
+}
+
+.train {
+  width: 56.87%;
+  margin-top: 5vw;
+}
+
+.bag {
+  width: 38.19%;
+  margin-top: 3.2vw;
+}
+
+.money {
+  width: 78.74%;
+  margin-top: 1vw;
+}
+
+.insurance {
+  width: 48.73%;
+  margin-top: 4.9vw;
+}
+
+.calender {
+  width: 45.78%;
+  margin-top: 7.5vw;
+}
+
+.money-2 {
+  width: 65.24%;
+  margin-top: 1vw;
+}
+
+.welfare-content-img img {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.welfare-content-introduce {
+  width: 77.11%;
+  margin: 0 auto;
+  font-size: 1.3vw;
+  letter-spacing: 0.1vw;
+  line-height: 2vw;
+  font-family: Tsunami;
+}
+
+
 .welfare-contents-border {
-  border-bottom: dotted 3px silver;
-  width: 1500px;
-  margin: 50px auto;
+  border-bottom: silver 0.3vw dotted;
+  padding-top: 3%;
+  margin-bottom: 3%;
+}
+
+.welfare-others {
+  display: flex;
+  width: 84.79%;
+  margin: 7vw auto 0 auto;
+  text-align: center;
+}
+
+.welfare-others-left {
+  width: 48%;
+  margin-right: 4%;
+}
+
+.welfare-others-right {
+  width: 48%;
+}
+
+.welfare-others-border {
+  border-bottom: silver 0.3vw dotted;
+}
+
+.welfare-other {
+
+}
+
+.welfare-other h3 {
+  margin-top: 3vw;
+  margin-bottom: 3vw;
+  font-size: 2.2vw;
+}
+
+.welfare-other h3.short {
+  margin-top: 1.9vw;
+  margin-bottom: 0.9vw;
+}
+
+.welfare-other p {
+  font-size: 1.3vw;
+  margin-bottom: 1.9vw;
 }
 
 .welfare-application .container {
   background-image: none;
-  position: relative;
+  background-color: white;
+  padding-bottom: 21%;
 }
 
-.welfare-others {
-  text-align: center;
-  font-size: 40px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  height: 500px;
-}
-
-.welfare-others p {
-  font-size: 25px;
-  position: relative;
-  top: -60px;
-}
-
-.welfare-others-right {
-  display: inline-block;
-  width: 684px;
-  margin-left: 20px;
-}
-
-.welfare-others-left {
-  display: inline-block;
-  width: 684px;
-  position: relative;
-  top: 97px;
-  margin-right: 20px;
-}
-
-.welfare-other {
-  height: 120px;
-  vertical-align: top;
-}
-
-.welfare-others-border {
-  border-bottom: dotted 3px silver;
-}
-
-.welfare-button {
-  position: relative;
-  top: 126px;
-}
-
-.welfare-application {
-  height: 784px;
+.welfare-application .welfare-button {
+  margin-top: 11vw;
 }
 
 
-
-/* -------------------申し込みの流れ------------------ */
+/*_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+                        　申し込みの流れ  
+_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/*/
 
 .flow {
-  position: relative;
-  top: -319px;
+  width: 100%;
 }
 
-.flow .container {
-  background-color: #eeeeee;
+.flow > .container {
   position: relative;
-  top: -287px;
-  width: 100%;
-  height: 2980px;
+  background-color: #F0EFED;
+  padding-top: 14.33%;
+}
+
+.flow .index {
+  position: absolute;
+  top: -3%;
+  line-height: 6vw;
 }
 
 .flow .index h2 {
-  position: relative;
-  top: 80px;
-  left: 240px;
+  padding-top: 10%;
 }
 
 .flow-flame {
+  width: 73.07%;
   background-color: white;
-  padding: 0px 0 70px 0;
-  width: 1235px;
   margin: 0 auto;
-  position: relative;
-  top: 270px;
+  padding-top: 12.76%;
+  padding-bottom: 10.93%;
 }
 
 .flow-contents {
-  width: 780px;
-  margin: 230px auto 170px auto;
-  text-align: center;
-  position: relative;
-  top: 190px;
-  padding-bottom: 50px;
+  width: 63.96%;
+  margin: 0 auto;
+}
+
+.numbering {
+  height: 5vw;
+  width: 3.5vw;
+  margin: 0 auto;
 }
 
 .numbering img {
-  height: 77px;
-  position: relative;
-  top: 25px;
+  height: 100%;
+  margin: 0 auto;
 }
 
 .flow-content-title {
-  font-size: 40px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-weight: bold;
+  font-size: 2.2vw;
+  text-align: center;
 }
 
-.flow-content-title span {
-  border-bottom: solid 2px black;
+.flow-content-title h3 {
+  padding-top: 2.5vw;
+}
+
+.flow-content-title h3 span {
+  border-bottom: 0.2vw solid black;
+  padding-bottom: 0.3vw;
 }
 
 .flow-content-introduce {
-  font-size: 25px;
+  margin-top: 3.1vw;
+  margin-bottom: 3.6vw;
   text-align: justify;
-  padding-bottom: 10px;
-  position: relative;
-  top: -20px;
-  padding-bottom: 20px;
+  line-height: 2.2vw;
+  font-size: 1.4vw;
+  font-family: Tsunami;
 }
 
 .first-flow {
   text-align: center;
-  padding-bottom: 10px;
 }
 
 .flow-application .container {
+  background-color: #F0EFED;
   background-image: none;
-  height: 400px;
-}
-
-.flow-application {
-  height: 400px;
-  position: relative;
-  top: 520px;
-}
-
-.flow-application .sentence {
-  position: relative;
-  top: -50px;
-}
-
-.flow-application .button {
-  position: relative;
-  top: -50px;
+  padding-bottom: 38%;
 }
 
 
 
-/* -------------------手厚いサポート------------------ */
+
+
+
+/*_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+                          　手厚いサポート
+_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/*/
 
 .support {
-  position: relative;
-  top: -606px;
-  background-color: #e8e8ff;
-  padding-bottom: 190px;
   width: 100%;
+  background-color: #DDE2E5;
+  letter-spacing: 0.2vw;
+  padding-bottom: 13%;
 }
 
 .support-title {
+  width: 100%;
   text-align: center;
-  padding-top: 180px;
-}
-
-.support-title img {
-  width: 442px;
-}
-
-.support-title p {
-  font-size: 25px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  padding-top: 20px;
-  letter-spacing: 1px;
-  line-height: 60px;
-  padding-bottom: 110px;
   font-weight: bold;
+  line-height: 3.2vw;
+  padding-top: 10%;
+  margin-bottom: 9%;
+  font-size: 1.6vw;
+}
+
+.support-title-img {
+  width: 26.39%;
+  margin: 0 auto;
+  padding-bottom: 1.5vw;
+}
+
+.support-title-img img {
+  width: 100%;
 }
 
 .supprt-container {
-  width: 1382px;
-  margin: 0 auto;
-  text-align: justify;
-}
-
-.follow {
-  width: 1385px;
+  width: 81.77%;
   margin: 0 auto;
   background-color: white;
-  padding: 85px auto 126px auto;
+  padding-top: 6vw;
 }
 
 .follow-title {
-  margin: 0 auto;
-  font-size: 35px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  width: 1382px;
-  position: relative;
-  top: 85px;
-  left: 320px;
+  font-size: 2.4vw;
+  width: 49.78%;
+  height: 5vw;
+  border: solid 0.15vw #558BA9;
+  color: #085881;
+  text-align: center;
+  margin: 0 auto 5.5vw auto;
 }
 
 .follow-title h3 {
-  border: solid 2px #009999;
-  width: 690px;
-  height: 84px;
-  padding-top: 25px;
-  color: #009999;
-  text-align: center;
+  padding-top: 1.3vw;
 }
 
 .follow-contents {
-  width: 1130px;
+  width: 82.12%;
   margin: 0 auto;
-  padding-top: 92px;
-  padding-bottom: 100px;
-}
-
-.follow-content img {
-  width: 253px;
 }
 
 .follow-content {
-  position: relative;
-  padding-bottom: 73px;
+  display: flex;
+  text-align: justify;
+  padding-bottom: 6vw;
+}
+
+.follow-content-img {
+  width: 22.2%;
+  margin-right: 3.4%;
+}
+
+.follow-content-img img {
+  width: 100%;
 }
 
 .follow-content-details {
-  display: inline-block;
-  width: 843px;
-  position: absolute;
-  top: -35px;
-  left: 290px;
-}
-
-.follow-content-details h4 {
-  font-size: 30px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  border-bottom: solid 2px black;
-}
-
-.follow-content-details p {
-  font-size: 22px;
+  width: 74.36%;
+  padding-top: 1vw;
 }
 
 .follow-content-details span {
-  font-size: 22px;
+  font-size: 1.4vw;
+}
+
+.follow-content-details h4 {
+  border-bottom: 0.1vw solid black;
+  padding-bottom: 0.9vw;
+  font-size: 1.85vw;
+  margin-bottom: 0.9vw;
+}
+
+.follow-content-details p {
+  font-size: 1.4vw;
+  line-height: 2.3vw;
+  letter-spacing: -0.1vw;
+  font-family: Tsunami;
 }
 
 .education-title {
-  margin: 0 auto;
-  font-size: 35px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  width: 1382px;
-  position: relative;
-  top: 150px;
-  left: 320px;
+  font-size: 2.4vw;
+  width: 40.82%;
+  height: 4vw;
+  border: solid 0.15vw #558BA9;
+  color: #085881;
+  text-align: center;
+  margin: 9.5% auto 4vw auto;
+  background-color: white;
 }
 
 .education-title h3 {
-  border: solid 2px #009999;
-  background-color: white;
-  width: 690px;
-  height: 84px;
-  padding-top: 25px;
-  color: #009999;
-  text-align: center;
+  padding-top: 0.8vw;
 }
 
-
-
 .education {
-  padding-top: 160px;
-  color: white;
+  width: 100%;
 }
 
 .education-above {
-  background-image: url(img/S__31162451.jpg);
-  background-repeat: no-repeat;
+  width: 100%;
+  background-image: url(/img/S__31162451.jpg);
+  height: 0px;
+  padding-bottom: 27.81%;
   background-size: cover;
-  height: 470px;
-  margin-bottom: 55px;
+  margin-bottom: 2.8vw;
+}
+
+.education-above .education-detail{
+  float: right;
 }
 
 .education-below {
-  background-image: url(img/S__31162450.jpg);
-  background-repeat: no-repeat;
+  width: 100%;
+  background-image: url(/img/S__31162450.jpg);
+  height: 0px;
+  padding-bottom: 27.81%;
   background-size: cover;
-  height: 470px;
+  margin-bottom: 13%;
 }
 
 .education-detail {
-  background-color: #000044;
-  width: 760px;
-  height: 100%;
-  opacity: 70%;
+  background-color: #08537B;
+  height: 27.5vw;
+  width: 44.97%;
+  opacity: 80%;
 }
 
 .education-inner {
-  width: 505px;
+  opacity: 100%;
+  color: white;
+  width: 66.84%;
+  padding-top: 7vw;
+  padding-left: 5vw;
+}
+
+.education-inner h5 {
+  font-size: 1.9vw;
+  padding-bottom: 2vw;
+}
+
+.education-inner p {
+  font-size: 1.5vw;
+  line-height: 2.2vw;
   text-align: justify;
-  padding-top: 124px;
-  padding-left: 80px;
-}
-.education h5 {
-  opacity: 100%;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 33px;
-}
-
-.education p {
-  opacity: 100%;
-  font-size: 21px;
-  position: relative;
-  top: -25px;
-  line-height: 33px;
-  letter-spacing: 1px;
-}
-
-.education-above .education-detail {
-  margin-left: auto;
-}
-
-.support-application {
-  padding-top: 210px;
+  font-family: Tsunami;
 }
 
 
 
-/* -------------------会社情報------------------- */
 
-.infomation {
+
+/*_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
+                            会社情報      
+_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/*/
+
+.information {
   width: 100%;
-  position: relative;
-  top: -510px;
 }
 
-.infomation-title {
-  font-size: 45px;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  color: #191970;
+.information-title {
+  width: 40%;
+  margin: 12% auto 6% auto;
   text-align: center;
+  color: #075981;
+  font-size: 2.6vw;
 }
 
-.infomation-contents {
-  width: 970px;
+.information-contents {
+  width: 67.15%;
   margin: 0 auto;
+  font-family: Tsunami;
 }
 
-.infomation-name {
-  font-size: 38px;
-  display: inline-block;
-  width: 297px;
-  padding: 0;
+.information-content {
+  display: flex;
+  margin-bottom: 2vw;
+  text-align: left;
+  font-size: 1.6vw;
+ 
   
 }
 
+.information-name {
+  width: 25.99%;
+  margin-right: 1.3%;
+  border-bottom: solid 0.1vw silver;
+  padding-bottom: 1.5vw;
+}
 
- .infomation-name  h6 {
-  border-bottom: solid 1px black;
-  padding-bottom: 34px;
- }
+.information-detail {
+  width: 72.68%;
+  border-bottom: solid 0.1vw silver;
+  padding-bottom: 2vw;
+}
 
-.infomation-detail {
-  border-bottom: solid 1px black;
-  font-size: 25px;
-  text-align: justify;
-  width: 662px;
-  display: inline-block;
-  padding-bottom: 12px;
+.information-content > .short {
+  padding-top: 0;
+}
+
+.information-imgs {
+  width: 54.67%;
+  margin: 3vw auto;
+  display: flex;
   vertical-align: middle;
 }
 
-.long h6{
-  padding-bottom: 90px;
+.to-ko {
+  width: 32.25%;
+  margin-right: 1.5%;
+  margin-top: 2%;
+
 }
 
-.content {
-  padding: 0;
-}
-
-.infomation-imgs {
-  width: 888px;
-}
-
-.infomation-imgs .to-ko {
-  height: 90px;
-}
-
-.infomation-imgs .forty {
-  height: 100px;
+.forty {
+  width: 14.71%;
+  margin-right: 4%;
+  margin-top: 2%;
 }
 
 .excellent {
-  height: 150px;
+  width: 13.96%;
+  margin-right: 2%;
 }
 
 .gj {
-  height: 150px;
+  width: 12.98%;
+  margin-right: 2%;
 }
 
 .privacy {
-  height: 150px;
+  width: 15.47%;
 }
 
-.infomation-imgs {
-  margin: auto;
+.information-size {
+  width: 100%;
+  
 }
-
-
-
-/* -------------------フッター------------------- */
 
 footer {
+  width: 100%;
   text-align: center;
+  background-color: #333333;
   color: white;
-  background-color: #110000;
-  font-size: 25px;
-  height: 80px;
+  font-size: 1.5vw;
+  padding-top: 1vw;
+  padding-bottom: 1.3vw;
+  font-family: Tsunami;
 }
 
-footer p {
-  position: relative;
-  top: 25px;
+
+
+
+
+
+
+
+/* タブレット用 */
+@media (max-width: 1280px) {
+
+
+
+
+}
+
+
+
+/* スマートフォン用 */
+@media (max-width: 768px) {
+
+  .main {
+    background-image: url(/img/アセット\ 2_sp.png);
+    padding-bottom: 123.35%;
+  }
+
+  .header-logo {
+    width: 30%;
+  }
+
+  .main-container {
+    margin-top: 14%;
+  }
+
+  .speech-baloons {
+    flex-direction: column;
+    width: 20%;
+    font-size: 1.3vw;
+    font-weight: lighter;
+    line-height: 3.5vw;
+  }
+
+  .baloon-1 {
+    width: 100%;
+    padding-bottom: 100%;
+    margin-bottom: 3%;
+  }
+
+  .baloon-2 {
+    width: 100%;
+    padding-bottom: 100%;
+    margin-bottom: 3%;
+  }
+
+  .baloon-3 {
+    width: 100%;
+    padding-bottom: 100%;
+  }
+
+  .speech-baloons p {
+    padding-top: 21%;
+  } 
+  
+  p.baloon-content-2 {
+    padding-top: 31%;
+  }
+
+  .main-title {
+    flex-direction: column;
+    margin-top: 5%;
+  }
+
+
+
+  
+  .vertical {
+    writing-mode: vertical-lr;
+    font-size: 6.5vw;
+  }
+  
+  .side {
+    font-size: 14vw;
+  }
+  
+  .line-image {
+    width: 12%;
+  }
+
+  .side {
+    font-size: 17vw;
+  }
+
+  .vertical {
+    font-size: 8vw;
+    margin-left: 20%;
+  }
+
+  .vertical-2 {
+    margin-left: 28%;
+  }
+
+  .side-2  h1 {
+    font-size: 17.5vw;
+  }
+
+  .main-abobe-title {
+    width: 100%;
+  }
+  
+  .main-below-title {
+    width: 100%;
+  }
+
+  .about-to-ko-sentence {
+    font-weight: lighter;
+    letter-spacing: 0.4vw;
+    transform: scale(0.8);
+    width: 86%;
+    line-height: 3.5vw;
+    margin-top: 2%;
+  }
+
+  .about-to-ko-title {
+    padding-top: 27%;
+  }
+  
+
+  .work-title h3 {
+    transform: scale(1.2);
+  }
+
+  .index h2 {
+    transform: scale(1.2);
+  }
+
+  .work-content {
+    flex-direction: column;
+    margin: 0 auto;
+  }
+
+  .work-content-img {
+    margin: 0 auto;
+  }
+
+  .description {
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 7vw;
+    padding-top: 3vw;
+  }
+
+  .description p {
+    line-height: 4vw;
+  }
+
+  .description ul {
+    line-height: 4vw;
+    padding: 2vw 1.5vw 2vw 4vw;
+  }
+
+  .work-point {
+    margin: 2vw auto 2vw auto;
+  }
+
+  .hotel-point {
+    margin-top: 6vw;
+  }
+
+
+
+  .welfare-title img {
+    transform: scale(1.5);
+  }
+
+
+
+  .welfare-contents-half {
+    flex-direction: column;
+  }
+
+  .welfare-content {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .welfare-content-title {
+    font-size: 5vw;
+    padding-bottom: 8%;
+    padding-top: 5%;
+    line-height: 7vw;
+  }
+
+  .welfare-content-border {
+    padding-top: 10%;
+    margin-bottom: 10%;
+    width: 80%;
+    border-bottom: 0.3vw silver dotted;
+    border-right: none;
+    margin: 0 auto;
+  }
+
+  .welfare-contents-border {
+    padding-top: 10%;
+    margin-bottom: 10%;
+    width: 80%;
+    border-bottom: 0.3vw silver dotted;
+    border-right: none;
+    margin: 0 auto;
+  }
+
+  .welfare-content-introduce {
+    font-size: 3.5vw;
+    font-weight: normal;
+    line-height: 5vw;
+  }
+
+  .welfare-others {
+    flex-direction: column;
+    margin-top: 17%;
+  }
+
+  .welfare-others-left {
+    margin: 0 auto;
+    width: 70%;
+    transform: scale(1.2);
+  }
+
+  .welfare-others-right {
+    margin: 0 auto;
+    width: 70%;
+    transform: scale(1.2);
+    margin-top: 4.4%;
+  }
+
+  .none-border {
+    border: none;
+  }
+
+
+  
+
+
+
+  
+
+  
+
+  
+  .flow-flame {
+    width: 85%;
+  }
+  
+  .flow-contents {
+    width: 80%;
+  }
+  
+  .numbering {
+    height: 8vw;
+    margin: 0 auto 3% auto;
+  }
+  
+  
+  .flow-content-title {
+    font-size: 5vw;
+  }
+  
+  .flow-content-title h3 {
+    padding-top: 2.5vw;
+  }
+  
+  
+  .flow-content-introduce {
+    margin-top: 7vw;
+    margin-bottom: 7vw;
+    line-height: 5vw;
+    font-size: 3.2vw;
+  }
+ 
+  
+  
+  
+  
+  
+  
+ 
+  
+  .support-title-img {
+    width: 40%;
+  }
+  
+
+  
+  .follow-title {
+    font-size: 4vw;
+    width: 60%;
+    height: 7vw;
+    margin: 3vw auto 12vw auto;
+  }
+  
+  .follow-title h3 {
+    padding-top: 1.6vw;
+  }
+  
+  .follow-contents {
+    width: 82.12%;
+    margin: 0 auto;
+  }
+  
+  .follow-content {
+    flex-direction: column;
+    text-align: justify;
+    padding-bottom: 10vw;
+  }
+  
+  .follow-content-img {
+    width: 40%;
+    margin: 0 auto;
+  }
+  
+  .follow-content-details {
+    width: 100%;
+    padding-top: 2vw;
+  }
+  
+  .follow-content-details h4 {
+    font-size: 3.9vw;
+    margin-bottom: 3vw;
+    margin-top: 1vw;
+    text-align: center;
+  }
+  
+  .follow-content-details p {
+    font-size: 3vw;
+    line-height: 5vw;
+    letter-spacing: 0.2vw;
+    font-family: Tsunami;
+  }
+  
+  .education-title {
+    font-size: 4vw;
+    width: 60.82%;
+    height: 7vw;
+    padding-top: 1.5vw;
+  }
+
+  .education {
+    width: 100%;
+  }
+  
+  .education-above {
+    padding-bottom: 40.81%;
+    margin-bottom: 6vw;
+    position: relative;
+  }
+  
+  .education-above .education-detail{
+    float: none;
+  }
+  
+  .education-below {
+    padding-bottom: 40.81%;
+    display: flex;
+    position: relative;
+  }
+  
+  .education-detail {
+    height: 27vw;
+    width: 100%;
+    opacity: 70%;
+    position: absolute;
+    bottom: 0;
+  }
+  
+  .education-inner {
+    width: 80%;
+    padding-top: 4vw;
+  }
+  
+  .education-inner h5 {
+    font-size: 3.3vw;
+    padding-bottom: 2vw;
+  }
+  
+  .education-inner p {
+    line-height: 3.9vw;
+    text-align: justify;
+    font-family: Tsunami;
+  }
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
 }
