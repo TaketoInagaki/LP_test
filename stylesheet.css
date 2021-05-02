@@ -63,7 +63,7 @@ p.baloon-content-2 {
 .baloon-1 {
   width: 31%;
   height: 0;
-  background-image: url(/img/circle_bg.png);
+  background-image: url(/img/サークル1.png);
   padding-bottom: 31%;
   background-size: cover;
   margin-right: 2%;
@@ -72,7 +72,7 @@ p.baloon-content-2 {
 .baloon-2 {
   width: 31%;
   height: 0;
-  background-image: url(/img/circle2_bg.png);
+  background-image: url(/img/サークル2.png);
   padding-bottom: 31%;
   background-size: cover;
   margin-right: 2%;
@@ -81,7 +81,7 @@ p.baloon-content-2 {
 .baloon-3 {
   width: 31%;
   height: 0;
-  background-image: url(/img/circle3_bg.png);
+  background-image: url(/img/サークル3.png);
   padding-bottom: 31%;
   background-size: cover;
 }
