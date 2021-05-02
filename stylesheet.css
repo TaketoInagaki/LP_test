@@ -900,18 +900,6 @@ footer {
 
 
 
-
-
-/* タブレット用 */
-@media (max-width: 1280px) {
-
-
-
-
-}
-
-
-
 /* スマートフォン用 */
 @media (max-width: 768px) {
 
@@ -1133,15 +1121,6 @@ footer {
   }
 
 
-  
-
-
-
-  
-
-  
-
-  
   .flow-flame {
     width: 85%;
   }
@@ -1171,13 +1150,7 @@ footer {
     line-height: 5vw;
     font-size: 3.2vw;
   }
- 
-  
-  
-  
-  
-  
-  
+
  
   
   .support-title-img {
@@ -1280,21 +1253,7 @@ footer {
   .education-inner p {
     line-height: 3.9vw;
     text-align: justify;
-    font-family: Tsunami;
   }
-  
-  
-  
-  
-
-
-
-
-
-
-
-
-
 
 
 
